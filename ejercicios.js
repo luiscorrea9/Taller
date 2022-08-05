@@ -21,6 +21,12 @@ function ejercicio_dos(){
 }
 console.log(ejercicio_dos());
 
+function ejercicio_tres(presion, volumen, temperatura){
+    let masa = (presion*volumen)/(0.37*(temperatura+460));
+    return masa;
+}
+console.log(ejercicio_tres(540,320,9));
+
 
 
 
