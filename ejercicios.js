@@ -46,3 +46,15 @@ function ejercicio_cinco(inversor_uno, inversor_dos, inversor_tres){
     \n El valor total invertido es: ${total_invertido}`;
 }
 console.log(ejercicio_cinco(50,60,70));
+
+function ejercicio_final(monto_prestamo){
+    let interes=monto_prestamo*0.24;
+    let monto_total=monto_prestamo+interes;
+    let cuota_especial=(monto_total/2)/4;
+    let cuota_ordinaria=(monto_total/2)/20;
+    return `El monto total a pagar es: ${monto_total}
+    \n El monto por cuotas especiales es: ${cuota_especial}
+    \n El monto pot cuotas ordinarias es: ${cuota_ordinaria}`;
+}
+
+console.log(ejercicio_final(100000));
