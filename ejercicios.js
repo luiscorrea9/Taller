@@ -35,3 +35,14 @@ function ejercicio_cuatro(edad){
 console.log(ejercicio_cuatro(50));
 
 
+function ejercicio_cinco(inversor_uno, inversor_dos, inversor_tres){
+    let total_invertido=inversor_uno+inversor_dos+inversor_tres;
+    let porcentaje_uno= (100*inversor_uno)/total_invertido;
+    let porcentaje_dos= (100*inversor_dos)/total_invertido;
+    let porcentaje_tres= (100*inversor_tres)/total_invertido;
+    return ` El porcentaje del primer inversor es: ${porcentaje_uno}
+    \n El porcemtaje del segundo inversor es: ${porcentaje_dos}
+    \n El porcentaje del tercer inversor es: ${porcentaje_tres}
+    \n El valor total invertido es: ${total_invertido}`;
+}
+console.log(ejercicio_cinco(50,60,70));
