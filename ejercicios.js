@@ -27,6 +27,11 @@ function ejercicio_tres(presion, volumen, temperatura){
 }
 console.log(ejercicio_tres(540,320,9));
 
+function ejercicio_cuatro(edad){
+    let numero_pulsaciones=(200-edad)/10;
+    return numero_pulsaciones;
+}
 
+console.log(ejercicio_cuatro(50));
 
 
